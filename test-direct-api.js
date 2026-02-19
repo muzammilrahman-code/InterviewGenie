@@ -1,7 +1,7 @@
 // Direct REST API test to check if API key is valid
 import https from 'https';
 
-const API_KEY = 'AIzaSyAcNLhSFyh_LiUeWtfU4liSbNCjK41clq0';
+
 
 async function testDirectAPI() {
   console.log('Testing direct REST API call...');
