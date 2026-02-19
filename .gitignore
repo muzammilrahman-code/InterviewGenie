@@ -24,9 +24,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-test-api.js
-test-app.js
-test-direct-api.js
-test-direct-api.js
-test-gemini.js
-test-service.js
+
+# Test files
+test-*
+tests/
+__tests__/
+*.test.*
+*.spec.*
