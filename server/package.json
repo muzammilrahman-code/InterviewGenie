@@ -1,0 +1,20 @@
+{
+  "name": "ai-mock-server",
+  "version": "1.0.0",
+  "description": "Express backend for AI Mock Interview",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@neondatabase/serverless": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "drizzle-orm": "^0.45.1",
+    "express": "^4.21.2",
+    "uuid": "^11.0.5"
+  }
+}
